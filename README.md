@@ -54,6 +54,14 @@ Run `npm install` from both the `./server` and `./client` directories.
 
 ---
 
+## Running
+
+Launch MongoDB with `mongod`.
+
+Run `npm run dev` from the `./server` directory.
+
+---
+
 ## Instructions for use
 
 1. Clone this repository
@@ -62,14 +70,6 @@ Run `npm install` from both the `./server` and `./client` directories.
 4. Run `npm run dev` in the terminal to run the server and client concurrently
 5. Visit [http://localhost:3000](http://localhost:3000) in your browser
 6. Get Bookfacing!
-
----
-
-## Running
-
-Launch MongoDB with `mongod`.
-
-Run `npm run dev` from the `./server` directory.
 
 ---
 
