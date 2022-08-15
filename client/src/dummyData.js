@@ -1,22 +1,22 @@
-const PF = process.env.REACT_APP_PUBLIC_FOLDER
+const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 
 export const Users = [
   {
     id: 1,
     profilePicture: `${PF}default-profile.png`,
-    username: 'Todd Bonzalez'
+    username: "Todd Bonzalez",
   },
   {
     id: 2,
     profilePicture: `${PF}default-profile.png`,
-    username: 'Bobson Dugnutt'
+    username: "Bobson Dugnutt",
   },
   {
     id: 3,
     profilePicture: `${PF}default-profile.png`,
-    username: 'Dwigt Rortugal'
+    username: "Dwigt Rortugal",
   },
-]
+];
 
 export const Posts = [
   {
@@ -26,7 +26,7 @@ export const Posts = [
     date: "5 mins ago",
     userId: 2,
     likes: 2,
-    comments: 2
+    comments: 2,
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ export const Posts = [
     date: "10 mins ago",
     userId: 1,
     likes: 2,
-    comments: 2
+    comments: 2,
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ export const Posts = [
     date: "15 mins ago",
     userId: 3,
     likes: 2,
-    comments: 2
+    comments: 2,
   },
   {
     id: 4,
@@ -53,6 +53,6 @@ export const Posts = [
     date: "20 mins ago",
     userId: 1,
     likes: 22,
-    comments: 25
-  }
-]
+    comments: 25,
+  },
+];

@@ -14,5 +14,5 @@ export const getTimelinePosts = (id) => async (dispatch) => {
 
 export const deletePost = (postId) => async (dispatch) => {
   dispatch({ type: "DELETE_POST", data: postId });
-  postApi.deletePost(postId)
+  postApi.deletePost(postId);
 };
